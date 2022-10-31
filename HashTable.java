@@ -1,5 +1,3 @@
-package chapter10;
-
 /**
  * A very simple implementation of a Hash Table DS.
  * 
