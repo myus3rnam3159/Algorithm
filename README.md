@@ -9,3 +9,17 @@ Chạy java sử dụng commandline:
 
 javac + file.java
 java + <tên-class>
+
+Cách sử dụng môi trường ảo python venv (standard) trên ubuntu linux
+
+0. Tạo folder chứa môi trường ảo, đặt tên, ví dụ: myenv
+
+1. Tái: sudo apt-get install python3.x-venv
+
+2. Kích hoạt môi trường(trên bash - chú ý nhớ thoát ra folder cha): 
+	a. python3 -m venv myenv
+	b. source myenv/bin/activate
+
+KIỂM TRA UNTRACKED FILES TRONG GIT
+
+git status --untracked-files=all 
