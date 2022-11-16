@@ -7,7 +7,7 @@ def factorial_iterative_while(n):
     return result
 
 
-# Kiểm tra xem hàm giai thừa có chạy đúng hay không
+# Kiểm tra xem hàm giai thừa có chạy đúng hay không: nếu đúng thì không có gì xảy ra, nếu sai thì quang ra lỗi
 # Giải thích keyword assert: https://www.w3schools.com/python/ref_keyword_assert.asp
 
 assert factorial_iterative_while(4) == 24

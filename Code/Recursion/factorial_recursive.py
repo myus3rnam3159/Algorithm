@@ -1,4 +1,5 @@
 #Hàm giai thừa dạng đệ quy
+#Chú ý: hàm này chỉ chịu được n < 1000
 
 def factorial(n):
     if n<=1:
