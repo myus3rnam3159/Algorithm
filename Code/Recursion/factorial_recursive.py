@@ -21,7 +21,7 @@ def factorial(n):
 # factorial = trace(factorial)
 # factorial(5)
 
-#Gia tăng giới hạn cho hàm giai thừa
+#Gia tăng giới hạn cho hàm giai thừa quá n > 1000
 sys.setrecursionlimit(1002)
 print(sys.getrecursionlimit())
 print(factorial(1000))
