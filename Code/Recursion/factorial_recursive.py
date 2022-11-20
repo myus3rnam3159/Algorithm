@@ -18,5 +18,10 @@ def factorial(n):
 # print(factorial(-7))
 
 #Biểu diễn các lời gọi hàm đệ quy ra màn hình
-factorial = trace(factorial)
-factorial(5)
+# factorial = trace(factorial)
+# factorial(5)
+
+#Gia tăng giới hạn cho hàm giai thừa
+sys.setrecursionlimit(1002)
+print(sys.getrecursionlimit())
+print(factorial(1000))
