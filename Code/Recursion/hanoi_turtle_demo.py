@@ -47,7 +47,7 @@ def play():
 
 
 def main():
-    global t1, t2, t3exit
+    global t1, t2, t3
     ht();
     penup();
     goto(0, -225)  # writer turtle
